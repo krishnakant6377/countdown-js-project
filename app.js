@@ -53,34 +53,29 @@ function setAlarm() {
     let time = new Date();
     if (time.getHours() == wake) {
         document.getElementById("text").innerText = "GOOD MORNING!! WAKE UP !! "
-        document.getElementById("imgM").src = "./images/goodMorning.png"
+        document.getElementById("imgM").src = "./e29daad3-c29c-49e3-a533-0029448d93fa"
         document.getElementById("imgM").style.borderRadius = "2vw"
         document.getElementById("grab").innerText = "GRAB SOME HEALTHY BREAKFAST!!! "
     }
     if (time.getHours() == lunch) {
         document.getElementById("text").innerText = "Good Afternoon !! Take Some Sleep "
-        document.getElementById("imgM").src = "./images/goodAfter.png"
+        document.getElementById("imgM").src = "./noon"
         document.getElementById("imgM").style.borderRadius = "2vw"
         document.getElementById("grab").innerText = "Let's Have Some Lunch !! "
     }
     if (time.getHours() == nap) {
         document.getElementById("text").innerText = "Good Evening !! "
         document.getElementById("grab").innerText = "Stop Yawning, Get Some Tea.. It's Just Evening  !! "
-        document.getElementById("imgM").src = "./images/goodEvening.png"
+        document.getElementById("imgM").src = "./181f9c23-c0fe-4f04-a763-833c4dbed057"
         document.getElementById("imgM").style.borderRadius = "2vw"
     }
     if (time.getHours() == night) {
         document.getElementById("text").innerText = "Good Night !! "
-        document.getElementById("imgM").src = "./images/sleep.jpeg"
+        document.getElementById("imgM").src = "./a0a6140b-a54b-4ea2-a005-ea473b78d408"
         document.getElementById("grab").innerText = "Close Your Eyes and Go to Sleep !! "
         document.getElementById("imgM").style.borderRadius = "2vw"
     }
-    // if (time.getHours() == night && time.getHours() == nap && time.getHours() == lunch && time.getHours() == wake) {
-    //     document.getElementById("text").innerText = "GOOD MORNING!! WAKE UP !! "
-    //     document.getElementById("imgM").src = "./images/goodMorning.png"
-    //     document.getElementById("imgM").style.borderRadius = "2vw"
-    //     document.getElementById("grab").innerText = "GRAB SOME HEALTHY BREAKFAST!!! "
-    // }
+   
 
 
     function wT() {
